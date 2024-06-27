@@ -23,10 +23,42 @@ header > h1 {
     font-variant: small-caps;
 }
 
+header > p {
+    padding-bottom: 50px;
+}
+
 a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bolder;
     color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgb(32, 30, 30);
+    color: white
+
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.746);
 }
 
 footer {
@@ -34,5 +66,5 @@ footer {
     font-size: 25px;
     color: white;
     text-align: center;
-    padding: 6px;
+    padding: 10px;
 }
